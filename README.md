@@ -3,11 +3,11 @@
 A clean calculator app with unit conversion built in React Native.
 
 <p align="center">
-  <img src="assets/screenshot1.png" alt="Calculator" width="300">
+  <img src="assets/Screenshot1.png" alt="Calculator" width="300">
 </p>
 
 <p align="center">
-  <img src="assets/screenshot2.png" alt="Converter" width="300">
+  <img src="assets/Screenshot2.png" alt="Converter" width="300">
 </p>
 
 ## Features
