@@ -3,22 +3,19 @@
 A clean calculator app with unit conversion built in React Native.
 
 <p align="center">
-  <img src="assets/Screenshot1.png" alt="Calculator" width="300">
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot2.png" alt="Converter" width="300">
+  <img src="assets/Screenshot1.png" alt="Calculator" width="300" style="display: inline-block; margin-right: 10px;" />
+  <img src="assets/Screenshot2.png" alt="Converter" width="300" style="display: inline-block;" />
 </p>
 
 ## Features
 
-**Calculator:** Basic arithmetic, popup history, percentage operations
-**Unit Converter:** Length, weight, temperature, volume conversions
+**Calculator:** Basic arithmetic, popup history, percentage operations  
+**Unit Converter:** Length, weight, temperature, volume conversions  
 **Design:** Pure dark theme, responsive layout
 
 ## Usage
 
-**Calculator:** Tap numbers and operators, press = for results, tap History for past calculations
+**Calculator:** Tap numbers and operators, press = for results, tap History for past calculations  
 **Converter:** Tap Convert button, select category and units, enter value for instant conversion
 
 ## Tech Stack
