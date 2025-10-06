@@ -3,8 +3,9 @@
 A clean calculator app with unit conversion built in React Native.
 
 <p align="center">
-  <img src="assets/Screenshot1.png" alt="Calculator" width="300" style="display: inline-block; margin-right: 10px;" />
-  <img src="assets/Screenshot2.png" alt="Converter" width="300" style="display: inline-block;" />
+  <img src="assets/Screenshot1.png" alt="Calculator" width="300" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/Screenshot2.png" alt="Converter" width="300" />
 </p>
 
 ## Features
