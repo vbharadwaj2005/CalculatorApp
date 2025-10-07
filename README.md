@@ -18,7 +18,3 @@ A clean calculator app with unit conversion built in React Native.
 
 **Calculator:** Tap numbers and operators, press = for results, tap History for past calculations  
 **Converter:** Tap Convert button, select category and units, enter value for instant conversion
-
-## Tech Stack
-
-React Native • TypeScript • Expo
