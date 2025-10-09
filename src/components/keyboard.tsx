@@ -58,7 +58,6 @@ export default function Keyboard() {
   return (
     <View style={Styles.viewBottom}>
       <View style={Styles.calculatorContainer}>
-        {/* Display Section */}
         <View style={Styles.displaySection}>
           <View style={{ justifyContent: "flex-end", marginBottom: 8 }}>
             <Text style={Styles.screenSecondNumber}>
@@ -87,7 +86,6 @@ export default function Keyboard() {
           </Pressable>
         </View>
 
-        {/* Keypad Section */}
         <View style={Styles.keypadSection}>
           <View style={Styles.row}>
             <Button title="C" onPress={clear} />
@@ -122,7 +120,6 @@ export default function Keyboard() {
         </View>
       </View>
 
-      {/* History Popup Overlay */}
       {isHistoryOpen && (
         <View style={Styles.historyPopupOverlay}>
           <Pressable

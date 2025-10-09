@@ -102,8 +102,7 @@ export default function Converter() {
         <Text style={[Styles.converterTitle, { textAlign: 'center', marginBottom: 32 }]}>
           Unit Converter
         </Text>
-        
-        {/* Category Selection */}
+
         <View style={{ marginBottom: 32 }}>
           <Text style={Styles.converterLabel}>Category:</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginTop: 8 }}>
@@ -121,7 +120,6 @@ export default function Converter() {
           </ScrollView>
         </View>
 
-        {/* From Unit Selection */}
         <View style={{ marginBottom: 24 }}>
           <Text style={Styles.converterLabel}>From:</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginTop: 8 }}>
@@ -139,7 +137,6 @@ export default function Converter() {
           </ScrollView>
         </View>
 
-        {/* To Unit Selection */}
         <View style={{ marginBottom: 24 }}>
           <Text style={Styles.converterLabel}>To:</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginTop: 8 }}>
@@ -157,7 +154,6 @@ export default function Converter() {
           </ScrollView>
         </View>
 
-        {/* Input */}
         <View style={{ marginBottom: 24 }}>
           <Text style={Styles.converterLabel}>
             Enter value ({currentCategory.units[fromUnit].symbol}):
@@ -172,7 +168,6 @@ export default function Converter() {
           />
         </View>
 
-        {/* Result */}
         <View style={{ marginBottom: 32 }}>
           <Text style={Styles.converterLabel}>
             Result ({currentCategory.units[toUnit].symbol}):
